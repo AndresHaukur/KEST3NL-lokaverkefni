@@ -1,9 +1,9 @@
 # KEST3NL-lokaverkefni
 Lokaverkefni í áfanganum KEST3NL í Tækniskólanum
 
-# Hlutir til að gera
+# Things to do
 
-- [ ] Install and configure the server1, client1 and client2 with hostnames and domain as ddp.is.
+- [x] Install and configure the server1, client1 and client2 with hostnames and domain as ddp.is.
 The FQDN will be (server1.ddp.is) for server1, client1.ddp.is for client1 and client2.ddp.is for
 client2.
 - [ ] configure the server1 with static IP Address, from the IP Address block 192.168.100.0/24.
@@ -35,4 +35,19 @@ CUPS)
 use RSA keys instead of the password authentication.
 - [ ] All unused ports should be closed, use NMAP for testing.
 
-#
+# Report
+
+1. on server1 
+``` 
+sudo hostnamectl set-hostname server1.ddp.is 
+```
+on client1 
+``` 
+sudo hostnamectl set-hostname client1.ddp.is 
+```
+on client2 
+``` 
+sudo hostnamectl set-hostname client2.ddp.is 
+```
+These commands are used to set the hostnames for the appropriate devices
+
